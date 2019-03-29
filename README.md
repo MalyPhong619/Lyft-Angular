@@ -2,6 +2,7 @@
 
 ## Description
 
+The Lyft Site Clone application gives the programmer practice with using Angular MVC. The app has mock data of drivers and riders hard coded into the app model. A user will then be able to create, read, update, and/or delete drivers/riders with basic CRUD functionalities.
 
 
 #### By Maly Phongsavanh, March 29 2019
@@ -9,38 +10,24 @@
 ## Setup on OSX
 
 * Install Node.js
-* Install karma-cli globally:
-  * `$ npm install -g karma-cli`
+* Install Angular
 
 * Clone the repo
 
 * Install Dependecies
   * `$ npm install`
 
-* To build and start the dev server
-  * `$ npm run start`
+* To build app
+  * `$ ng build`
 
-* To explicitly run ESLint
-  * `$ npm run lint`
+* To run and start up application
+  * `$ ng serve`
 
-* To run the unit tests with Karma and Jasmine.
-  * `$ npm run test`
+* In browser navigate to:
+  * `localhost:4200`
 
-## API key
 
-* Navigate to following link
 
-* Log in/Sign up
-  * Copy the 32 alphanumeric key
-
-* Create a .env file in project directory
-  * `$ touch .env`
-
-* Open .env file
-  * `$ atom .env`
-
-* Create a variable called "exports.apiKey" inside .env file
-  * exports.apiKey = 32 alphanumeric key
 
 
 
