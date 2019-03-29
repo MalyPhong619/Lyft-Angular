@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Driver } from './models/driver.model';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ export class AppComponent {
   drivers : Driver[] = [
     new Driver('Maly', 'Phong', 28, 'Female'),
     new Driver('Andrea', 'Nicole', 27, 'Female'),
-    new Driver('Sunny', 'Lakang', 34, 'Male')
+    new Driver('Sunny', 'Lakang', 34, 'Male'),
   ]
 
 }
