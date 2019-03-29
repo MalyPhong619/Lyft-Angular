@@ -1,27 +1,65 @@
-# SiteRebuild
+# Lyft Site Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Description
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+#### By Maly Phongsavanh, March 29 2019
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup on OSX
 
-## Build
+* Install Node.js
+* Install karma-cli globally:
+  * `$ npm install -g karma-cli`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* Clone the repo
 
-## Running unit tests
+* Install Dependecies
+  * `$ npm install`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* To build and start the dev server
+  * `$ npm run start`
 
-## Running end-to-end tests
+* To explicitly run ESLint
+  * `$ npm run lint`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* To run the unit tests with Karma and Jasmine.
+  * `$ npm run test`
 
-## Further help
+## API key
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Navigate to following link
+
+* Log in/Sign up
+  * Copy the 32 alphanumeric key
+
+* Create a .env file in project directory
+  * `$ touch .env`
+
+* Open .env file
+  * `$ atom .env`
+
+* Create a variable called "exports.apiKey" inside .env file
+  * exports.apiKey = 32 alphanumeric key
+
+
+
+## Technologies Used
+
+* JavaScript
+* Angular
+* Node.js
+* jQuery 3.3.1
+* Babel
+* Webpack
+* ESLint
+
+## Support and contact details
+
+If there are any _questions_ or would like to contribute to the code, please feel free to email: _[Maly Phongsavanh](mailto:phongsavanh619@icloud.com)_
+
+## License
+
+This software is licensed under the MIT license.
+
+Copyright (c) 2019 **Maly Phongsavanh**
