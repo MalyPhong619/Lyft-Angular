@@ -12,7 +12,11 @@ The Lyft Site Clone application gives the programmer practice with using Angular
 * Install Node.js
 * Install Angular
 
-* Clone the repo
+* Clone the repo onto dekstop
+  * `$ git clone  https://github.com/MalyPhong619/Lyft-Angular.git`
+
+* Navigate to project folder from desktop
+  * `$ cd Lyft-Angular`
 
 * Install Dependecies
   * `$ npm install`
@@ -25,10 +29,6 @@ The Lyft Site Clone application gives the programmer practice with using Angular
 
 * In browser navigate to:
   * `localhost:4200`
-
-
-
-
 
 
 ## Technologies Used
