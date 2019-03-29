@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DriverComponent } from './driver/driver.component';
 import { RiderComponent } from './rider/rider.component';
 import { LogInComponent } from './log-in/log-in.component';
+import { ApplyDriveComponent } from './apply-drive/apply-drive.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { LogInComponent } from './log-in/log-in.component';
     AppComponent,
     DriverComponent,
     RiderComponent,
-    LogInComponent
+    LogInComponent,
+    ApplyDriveComponent
   ],
   imports: [
     BrowserModule
