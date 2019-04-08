@@ -7,6 +7,13 @@ The Lyft Site Clone application gives the programmer practice with using Angular
 
 #### By Maly Phongsavanh, March 29 2019
 
+## LYFT Site
+
+Top Content | Bottom Content
+----------|----------|
+<img src="READMEimages/top-half.png" height="150px"> |<img src="READMEimages/bottom-half.png" height="150px">
+
+
 
 ## Setup on OSX
 
@@ -46,6 +53,7 @@ The Lyft Site Clone application gives the programmer practice with using Angular
 1. Basic CRUD for Riders/Drivers
 1. Use Authentication for Riders/Drivers
 1. Deploy to Firebase
+1. Route Views and paths
 1. Style views to use as a clone site for Lyft
 
 
