@@ -7,6 +7,8 @@ import { DriverComponent } from './driver/driver.component';
 import { RiderComponent } from './rider/rider.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { ApplyDriveComponent } from './apply-drive/apply-drive.component';
+import { FooterNavComponent } from './footer-nav/footer-nav.component';
+import { MainWelcomeComponent } from './main-welcome/main-welcome.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { ApplyDriveComponent } from './apply-drive/apply-drive.component';
     DriverComponent,
     RiderComponent,
     LogInComponent,
-    ApplyDriveComponent
+    ApplyDriveComponent,
+    FooterNavComponent,
+    MainWelcomeComponent
   ],
   imports: [
     BrowserModule
