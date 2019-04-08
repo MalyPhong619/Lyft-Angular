@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainWelcomeComponent } from './main-welcome/main-welcome.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { DriverComponent } from './driver/driver.component';
-import { RiderComponent } from './rider/rider.component'
+import { RiderComponent } from './rider/rider.component';
 
 const appRoutes: Routes = [
   {
@@ -11,17 +11,17 @@ const appRoutes: Routes = [
     component: MainWelcomeComponent
   },
   {
-    path: '/log-in',
+    path: 'log-in',
     component: LogInComponent
   },
   {
-    path: '/driver',
+    path: 'driver',
     component: DriverComponent
   },
   {
-    path: '/rider',
+    path: 'rider',
     component: RiderComponent
-  },
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
