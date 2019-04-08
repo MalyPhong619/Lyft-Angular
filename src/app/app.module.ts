@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { routing } from './app.routing';
 
 
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { MainWelcomeComponent } from './main-welcome/main-welcome.component';
     MainWelcomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
