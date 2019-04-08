@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Rider } from '../models/rider.model'
 
 @Component({
   selector: 'app-rider',
@@ -11,5 +12,11 @@ export class RiderComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  riders : Rider[] = [
+    new Rider('Andy', 'Smith', 24, 'Portland'),
+    new Rider('Eimer', 'Jay', 27, 'Seattle'),
+    new Rider('Cathy', 'Sae', 32, 'San Diego'),
+  ]
 
 }
