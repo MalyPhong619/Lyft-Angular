@@ -7,6 +7,7 @@ The Lyft Site Clone application gives the programmer practice with using Angular
 
 #### By Maly Phongsavanh, March 29 2019
 
+
 ## Setup on OSX
 
 * Install Node.js
@@ -30,12 +31,28 @@ The Lyft Site Clone application gives the programmer practice with using Angular
 * In browser navigate to:
   * `localhost:4200`
 
+## Week 1 Goals
+1. Create Log in Component
+1. Create Sign up Component - Drivers
+1. Create Sign up Component - Riders
+1. Build mock data for Drivers
+1. Build mock data for Riders
+
+
+## Week 2 Goals
+1. Build Driver Data with Firebase
+1. Build Rider Data with Firebase
+1. Create paths for different components
+1. Basic CRUD for Riders/Drivers
+1. Use Authentication for Riders/Drivers
+1. Deploy to Firebase
+1. Style views to use as a clone site for Lyft
+
 
 ## Technologies Used
 
 * JavaScript
 * Angular
-* Node.js
 * jQuery 3.3.1
 * Babel
 * Webpack
