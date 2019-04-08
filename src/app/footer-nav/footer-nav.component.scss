@@ -1,13 +1,16 @@
 .footer-nav {
   display: flex;
   flex-flow: row nowrap;
-  ul {
-    list-style: none;
+  div {
+    width: 20%;
+    ul {
+      list-style: none;
+    }
   }
 }
 
 
 img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
