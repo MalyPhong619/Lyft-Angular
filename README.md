@@ -39,22 +39,28 @@ Top Content | Bottom Content
   * `localhost:4200`
 
 ## Week 1 Goals
-1. Create Log in Component
-1. Create Sign up Component - Drivers
-1. Create Sign up Component - Riders
-1. Build mock data for Drivers
-1. Build mock data for Riders
+
+Goals | Finished?
+----------|----------|
+Create Log in Component | Yes
+Create Sign up Component - Drivers | Yes
+Create Sign up Component - Riders | Yes
+Build mock data for Drivers | Yes
+Build mock data for Riders | Yes
 
 
 ## Week 2 Goals
-1. Build Driver Data with Firebase
-1. Build Rider Data with Firebase
-1. Create paths for different components
-1. Basic CRUD for Riders/Drivers
-1. Use Authentication for Riders/Drivers
-1. Deploy to Firebase
-1. Route Views and paths
-1. Style views to use as a clone site for Lyft
+
+Goals | Finished?
+----------|----------|
+Route Views and paths | Yes
+Style views to use as a clone site for Lyft | No
+Build Driver Data with Firebase | No
+Build Rider Data with Firebase | No
+Create paths for different components | No
+Basic CRUD for Riders/Drivers | No
+Use Authentication for Riders/Drivers | No
+Deploy to Firebase | No
 
 
 ## Technologies Used
